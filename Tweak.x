@@ -1,8 +1,8 @@
-@interface SBLockScreenViewControllerBase: UIViewController
+@interface SBHomeScreenViewController: UIViewController
 @end
 
-%hook SBLockScreenViewControllerBase
--(void)viewDidLoad {
+%hook SBHomeScreenViewController
+-(void)loadView {
 %orig;
 
 UIView *redRectangle = [[UIView alloc] initWithFrame: CGRectMake(0, 0, 200, 200)];
