@@ -7,6 +7,6 @@
 
 UIView *redRectangle = [[UIView alloc] initWithFrame: CGRectMake(0, 0, 200, 200)];
 [redRectangle setBackgroundColor: [UIColor redColor]];
-[self.view addSubView:redRectangle];
+[self.view addSubview:redRectangle];
 }
 %end
